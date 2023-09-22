@@ -1,0 +1,824 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ru' Physical Memory: 8157 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Games/My/GitHub/TowerDefense/Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63147
+Successfully changed project path to: D:/Games/My/GitHub/TowerDefense/Project
+D:/Games/My/GitHub/TowerDefense/Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11996] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 3721623575 [EditorId] 3721623575 [Version] 1048832 [Id] WindowsEditor(7,sad) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11996] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 3721623575 [EditorId] 3721623575 [Version] 1048832 [Id] WindowsEditor(7,sad) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Refreshing native plugins compatible for Editor in 343.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Games/My/GitHub/TowerDefense/Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2022.3.10f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.107125 seconds.
+- Loaded All Assemblies, in  1.072 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 311 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.751 seconds
+Domain Reload Profiling: 1823ms
+	BeginReloadAssembly (572ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (162ms)
+	LoadAllAssembliesAndSetupDomain (286ms)
+		LoadAssemblies (573ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (282ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (264ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (752ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (683ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (491ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.785 seconds
+Refreshing native plugins compatible for Editor in 5.29 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.777 seconds
+Domain Reload Profiling: 3562ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (2484ms)
+		LoadAssemblies (2409ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (161ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (778ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (587ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (435ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 4.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4004 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (245.0 KB). Loaded Objects now: 4463.
+Memory consumption went from 141.8 MB to 141.5 MB.
+Total: 4.039300 ms (FindLiveObjects: 0.393500 ms CreateObjectMapping: 0.271800 ms MarkObjects: 3.157800 ms  DeleteObjects: 0.215000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9490.788913 seconds.
+  path: Assets/Sprites/TX Tileset Grass.png
+  artifactKey: Guid(1c9ed9d1200c29d4cbfd2071028c1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TX Tileset Grass.png using Guid(1c9ed9d1200c29d4cbfd2071028c1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1364019508d20f6498d950183e830b') in 0.334637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.115379 seconds.
+  path: Assets/Tileset/TX Tileset Grass 0.asset
+  artifactKey: Guid(ce59b7a9b2200d04ab26aeddae700102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 0.asset using Guid(ce59b7a9b2200d04ab26aeddae700102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c1e60b11dff678484ab5e2c973b6aa') in 0.092162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 6.asset
+  artifactKey: Guid(a1d2bcff5f4ccae4c9199643de441f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 6.asset using Guid(a1d2bcff5f4ccae4c9199643de441f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50434f1a482db1abd9626bff56c08b0') in 0.042398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tileset/TX Tileset Grass 7.asset
+  artifactKey: Guid(517c16d57a260374da938862ce6e17d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 7.asset using Guid(517c16d57a260374da938862ce6e17d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9b2804448cf1062cd7702a3739a62c') in 0.023862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 7.asset
+  artifactKey: Guid(e8525b5d0e19e62429ef465abd395fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 7.asset using Guid(e8525b5d0e19e62429ef465abd395fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb0c14f838f6e459f74f911f9d920fb') in 0.025062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/TX Tileset Grass 1.asset
+  artifactKey: Guid(5e916d88d37527a47bf2a79bc7937634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 1.asset using Guid(5e916d88d37527a47bf2a79bc7937634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caecd51352c1f96b7d988a0124e55e2e') in 0.021242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 8.asset
+  artifactKey: Guid(a64b7a9b4137d8e4ab71f15ff0081268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 8.asset using Guid(a64b7a9b4137d8e4ab71f15ff0081268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55a5f2cc4da004db80b58bb798fa895') in 0.033845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/TX Tileset Grass 11.asset
+  artifactKey: Guid(0ae73030242749347a5416089676a88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 11.asset using Guid(0ae73030242749347a5416089676a88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4a11fdade8aff00e2e775b5795a773') in 0.039158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/TX Tileset Grass 3.asset
+  artifactKey: Guid(4fa3a35edeb23dc4f89391a643b076ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 3.asset using Guid(4fa3a35edeb23dc4f89391a643b076ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6736d9cd89e87afa55827ea1f597ab35') in 0.024558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tileset/TX Tileset Grass 14.asset
+  artifactKey: Guid(9e1d0748511299949b54d3804668beca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 14.asset using Guid(9e1d0748511299949b54d3804668beca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47184662d7fa49afc7f6f6f788bbd7d6') in 0.018475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 13.asset
+  artifactKey: Guid(3f02e391f4ef8db4995d42a72d58e07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 13.asset using Guid(3f02e391f4ef8db4995d42a72d58e07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac93b40e0c68dd57634421cd386de6d7') in 0.019257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 4.asset
+  artifactKey: Guid(13339f6f5097fa243ac01db69006a24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 4.asset using Guid(13339f6f5097fa243ac01db69006a24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f93534d107e6629a3a9079053ba0277') in 0.060879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/TX Tileset Grass Pavement 0.asset
+  artifactKey: Guid(1c80decdc93480d4d8936203c77aa4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Pavement 0.asset using Guid(1c80decdc93480d4d8936203c77aa4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af65d977ed9644b4f40e9025835057b') in 0.021792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 10.asset
+  artifactKey: Guid(2d4928afd3638ab48a6236d2d768be14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 10.asset using Guid(2d4928afd3638ab48a6236d2d768be14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e883dd8c04f8bf9ef4cf6c31cbba7c3') in 0.022663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 3.asset
+  artifactKey: Guid(2bff43b52defd2f4c995b9b9e30ef197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 3.asset using Guid(2bff43b52defd2f4c995b9b9e30ef197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436ed94a84b7fb8a55fd86f2df3e9739') in 0.034462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tileset/TX Tileset Grass Pavement 1.asset
+  artifactKey: Guid(7f34fece8ed097840aabf990f3695139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Pavement 1.asset using Guid(7f34fece8ed097840aabf990f3695139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d0b731ff4c7b4ddbca6cf31586ffda') in 0.019117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 1.asset
+  artifactKey: Guid(eab297e9f198eed4db92818cf7b8b1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 1.asset using Guid(eab297e9f198eed4db92818cf7b8b1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61e735aa90efda23df1f12731a3d7e2') in 0.010171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 2.asset
+  artifactKey: Guid(a059a59cdf8908b489a07e267da7611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 2.asset using Guid(a059a59cdf8908b489a07e267da7611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98b9a0f889f8a138d855cf1355b355a') in 0.010460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tileset/TX Tileset Grass 15.asset
+  artifactKey: Guid(3e328dd4f5b60d64989a8ac334904430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 15.asset using Guid(3e328dd4f5b60d64989a8ac334904430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bdd82f19382283fe71ec0061bb9c0e') in 0.033441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/TX Tileset Grass 13.asset
+  artifactKey: Guid(f151596edad974b4491a6aaa8a72c6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 13.asset using Guid(f151596edad974b4491a6aaa8a72c6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d8cd6631148bf2e9714f6d41281ae9') in 0.020147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 15.asset
+  artifactKey: Guid(031617fe13b94e541ac5e66dfcee2b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 15.asset using Guid(031617fe13b94e541ac5e66dfcee2b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47a479f1d362a146da66c4e5e6f2434') in 0.017468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 11.asset
+  artifactKey: Guid(af76352aff0eaa64b9cd86288a7f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 11.asset using Guid(af76352aff0eaa64b9cd86288a7f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706551118a74b4d8f469c90b1f823535') in 0.010402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Tileset/TX Tileset Grass 5.asset
+  artifactKey: Guid(b2a5c53213d18884dabb958ceb223464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 5.asset using Guid(b2a5c53213d18884dabb958ceb223464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa9237d3ab68c3d4491ac3a7eb91987') in 0.026164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 12.asset
+  artifactKey: Guid(94fc719f7f231944aa242a45f0f857c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 12.asset using Guid(94fc719f7f231944aa242a45f0f857c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8cc802ee528034bab02e9da3c4feb7') in 0.024148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/TX Tileset Grass 12.asset
+  artifactKey: Guid(39028d35ae03a784399d1325ecafe25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 12.asset using Guid(39028d35ae03a784399d1325ecafe25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653353916798b9711dbb840e64ef554e') in 0.021171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 9.asset
+  artifactKey: Guid(96e070f3318224d44a063b99016004cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 9.asset using Guid(96e070f3318224d44a063b99016004cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a8ee195b83f6503fcfa5d22b1dda89') in 0.022883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 0.asset
+  artifactKey: Guid(1a48475dcf2125e439cfad7df6c9d934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 0.asset using Guid(1a48475dcf2125e439cfad7df6c9d934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a26c3c98686cd6c06f746d1e4c6199') in 0.028116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 5.asset
+  artifactKey: Guid(36b97c2fe4333ca45adf1a97eb9667b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 5.asset using Guid(36b97c2fe4333ca45adf1a97eb9667b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fa3e00f40615c24df69b2d7bcf49b2') in 0.010401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 14.asset
+  artifactKey: Guid(6f2060771044c194d85265da4dd3d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 14.asset using Guid(6f2060771044c194d85265da4dd3d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8126abad4c09b751c22b31d167397973') in 0.028380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tileset/TX Tileset Grass 2.asset
+  artifactKey: Guid(83a4979b2a4dfcb4fa348f50f440fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 2.asset using Guid(83a4979b2a4dfcb4fa348f50f440fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6f6925ed92c4c4e67d5d4f7436118f') in 0.035486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/TX Tileset Grass 8.asset
+  artifactKey: Guid(3cf72821c85683b43b7234f294f3ef5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 8.asset using Guid(3cf72821c85683b43b7234f294f3ef5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa773b4324b6d882ff2c41d6c3dcacc5') in 0.010478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/TX Tileset Grass 4.asset
+  artifactKey: Guid(a3edb82035650a443bf7b5eb2bfd7e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 4.asset using Guid(a3edb82035650a443bf7b5eb2bfd7e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c821813db0c6427eeeb75155fc4af2b8') in 0.024527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/TX Tileset Grass 6.asset
+  artifactKey: Guid(d9b91a180221d5841b4d7499133c34e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 6.asset using Guid(d9b91a180221d5841b4d7499133c34e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418ac1398aa4c61aed8dd40c1d47f292') in 0.018811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/TX Tileset Grass 10.asset
+  artifactKey: Guid(916154600f3c82d4caf7e5ec5bc3dd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 10.asset using Guid(916154600f3c82d4caf7e5ec5bc3dd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7031fd1056523b90e4d5d2a4741a6d') in 0.018750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tileset/TX Tileset Grass 9.asset
+  artifactKey: Guid(b132885835623b147812ee2fe6ad34b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 9.asset using Guid(b132885835623b147812ee2fe6ad34b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b66671a7b62c449d1d967497a64f09') in 0.045804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.522219 seconds.
+  path: Assets/Pallete/New Palette.prefab
+  artifactKey: Guid(1499e00762c9d1a41ac7d1eceeeb6a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/New Palette.prefab using Guid(1499e00762c9d1a41ac7d1eceeeb6a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5720e3e5b9c3d09e368b420ab2f01e82') in 0.345028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 4.562590 seconds.
+  path: Assets/Pallete/New Palette.prefab
+  artifactKey: Guid(1499e00762c9d1a41ac7d1eceeeb6a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/New Palette.prefab using Guid(1499e00762c9d1a41ac7d1eceeeb6a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8973ea4e831f5309e0991ff3a8fbc93') in 0.030822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 1.446875 seconds.
+  path: Assets/Pallete/New Palette.prefab
+  artifactKey: Guid(1499e00762c9d1a41ac7d1eceeeb6a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/New Palette.prefab using Guid(1499e00762c9d1a41ac7d1eceeeb6a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4aa6c8c17d94d41bd373e9e323603e') in 0.034692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 9.525917 seconds.
+  path: Assets/Sprites/TX Tileset Grass.png
+  artifactKey: Guid(1c9ed9d1200c29d4cbfd2071028c1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TX Tileset Grass.png using Guid(1c9ed9d1200c29d4cbfd2071028c1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a42200b1cef2a1bc054f8900dcd2e8') in 0.126128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 15.533368 seconds.
+  path: Assets/Tileset/TX Tileset Grass 0.asset
+  artifactKey: Guid(ce59b7a9b2200d04ab26aeddae700102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 0.asset using Guid(ce59b7a9b2200d04ab26aeddae700102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f8be2b3bb7a835abb20e047d57ea88') in 0.009109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Tileset/TX Tileset Grass 7.asset
+  artifactKey: Guid(517c16d57a260374da938862ce6e17d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 7.asset using Guid(517c16d57a260374da938862ce6e17d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1280cf2cb96d119581dd8b3fd138a8cb') in 0.005186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 6.asset
+  artifactKey: Guid(a1d2bcff5f4ccae4c9199643de441f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 6.asset using Guid(a1d2bcff5f4ccae4c9199643de441f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb142d57d03df0c51ded87041789774') in 0.008728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 7.asset
+  artifactKey: Guid(e8525b5d0e19e62429ef465abd395fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 7.asset using Guid(e8525b5d0e19e62429ef465abd395fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88cab48d2ba82417bfbcc866c3673c2') in 0.006973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 8.asset
+  artifactKey: Guid(a64b7a9b4137d8e4ab71f15ff0081268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 8.asset using Guid(a64b7a9b4137d8e4ab71f15ff0081268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53234bd543941cda46b5fe1b0e134f9e') in 0.006547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/TX Tileset Grass 1.asset
+  artifactKey: Guid(5e916d88d37527a47bf2a79bc7937634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 1.asset using Guid(5e916d88d37527a47bf2a79bc7937634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa9a867d381c0f8ff3bb62f520612db') in 0.009563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/TX Tileset Grass 11.asset
+  artifactKey: Guid(0ae73030242749347a5416089676a88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 11.asset using Guid(0ae73030242749347a5416089676a88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a3820ce6dafa0603af046a47cbbf48') in 0.014730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/TX Tileset Grass 3.asset
+  artifactKey: Guid(4fa3a35edeb23dc4f89391a643b076ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 3.asset using Guid(4fa3a35edeb23dc4f89391a643b076ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c820afe4231e342c0b7fd69cde37e1d4') in 0.006355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Tileset/TX Tileset Grass 14.asset
+  artifactKey: Guid(9e1d0748511299949b54d3804668beca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 14.asset using Guid(9e1d0748511299949b54d3804668beca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c482479e40fc57791908d9d9e1b5676f') in 0.009148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 13.asset
+  artifactKey: Guid(3f02e391f4ef8db4995d42a72d58e07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 13.asset using Guid(3f02e391f4ef8db4995d42a72d58e07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd546b3d69a8d1938d57a0ac343f16f5') in 0.007562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 4.asset
+  artifactKey: Guid(13339f6f5097fa243ac01db69006a24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 4.asset using Guid(13339f6f5097fa243ac01db69006a24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bdeb07a48badf9f3109886fe1e98b9') in 0.006632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/TX Tileset Grass Pavement 0.asset
+  artifactKey: Guid(1c80decdc93480d4d8936203c77aa4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Pavement 0.asset using Guid(1c80decdc93480d4d8936203c77aa4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca94722606e0652f3f64520242c034c') in 0.008792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 10.asset
+  artifactKey: Guid(2d4928afd3638ab48a6236d2d768be14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 10.asset using Guid(2d4928afd3638ab48a6236d2d768be14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba2e676cad5ce09033eb874bbc7b4f8') in 0.016924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 3.asset
+  artifactKey: Guid(2bff43b52defd2f4c995b9b9e30ef197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 3.asset using Guid(2bff43b52defd2f4c995b9b9e30ef197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b11dbab15539db787791ea2cc3d9a29') in 0.006354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/TX Tileset Grass Pavement 1.asset
+  artifactKey: Guid(7f34fece8ed097840aabf990f3695139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Pavement 1.asset using Guid(7f34fece8ed097840aabf990f3695139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9027886b72b8d5d51e8509b7613cd30b') in 0.005940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 1.asset
+  artifactKey: Guid(eab297e9f198eed4db92818cf7b8b1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 1.asset using Guid(eab297e9f198eed4db92818cf7b8b1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0ff339fde549c890be3b486f435065') in 0.005900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 2.asset
+  artifactKey: Guid(a059a59cdf8908b489a07e267da7611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 2.asset using Guid(a059a59cdf8908b489a07e267da7611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d405c280c3bbecd0457c066798cfd69') in 0.006309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/TX Tileset Grass 15.asset
+  artifactKey: Guid(3e328dd4f5b60d64989a8ac334904430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 15.asset using Guid(3e328dd4f5b60d64989a8ac334904430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db71f6814a3b3cc54d5c2e29e073c812') in 0.005641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/TX Tileset Grass 13.asset
+  artifactKey: Guid(f151596edad974b4491a6aaa8a72c6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 13.asset using Guid(f151596edad974b4491a6aaa8a72c6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4379f193189a4c1cc9142c46f4998523') in 0.005029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 15.asset
+  artifactKey: Guid(031617fe13b94e541ac5e66dfcee2b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 15.asset using Guid(031617fe13b94e541ac5e66dfcee2b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aec545f7d8f7637d14ebaa65b2e88a1') in 0.005651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 11.asset
+  artifactKey: Guid(af76352aff0eaa64b9cd86288a7f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 11.asset using Guid(af76352aff0eaa64b9cd86288a7f473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eed683b3a523b88e99728f0e5a412bc') in 0.004684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/TX Tileset Grass 5.asset
+  artifactKey: Guid(b2a5c53213d18884dabb958ceb223464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 5.asset using Guid(b2a5c53213d18884dabb958ceb223464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362ae85ac12f81c3190a8efa61372cf8') in 0.005950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 12.asset
+  artifactKey: Guid(94fc719f7f231944aa242a45f0f857c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 12.asset using Guid(94fc719f7f231944aa242a45f0f857c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf57c93b099feb16f496dee0cb81a75') in 0.006556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tileset/TX Tileset Grass 12.asset
+  artifactKey: Guid(39028d35ae03a784399d1325ecafe25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 12.asset using Guid(39028d35ae03a784399d1325ecafe25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823e37bc51b7675e8b292929cf8e5648') in 0.005306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 9.asset
+  artifactKey: Guid(96e070f3318224d44a063b99016004cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 9.asset using Guid(96e070f3318224d44a063b99016004cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c617d1bf606a9364ccc51f28e4a65325') in 0.005732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 0.asset
+  artifactKey: Guid(1a48475dcf2125e439cfad7df6c9d934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 0.asset using Guid(1a48475dcf2125e439cfad7df6c9d934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf75d2f298dfba25358978a507652653') in 0.005074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 5.asset
+  artifactKey: Guid(36b97c2fe4333ca45adf1a97eb9667b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 5.asset using Guid(36b97c2fe4333ca45adf1a97eb9667b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd697d6dbbcf07c4507e533eb9d1e6c75') in 0.005152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tileset/TX Tileset Grass Flower 14.asset
+  artifactKey: Guid(6f2060771044c194d85265da4dd3d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass Flower 14.asset using Guid(6f2060771044c194d85265da4dd3d4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b565d7b66dd87071f29b96eb6550fa46') in 0.005589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/TX Tileset Grass 2.asset
+  artifactKey: Guid(83a4979b2a4dfcb4fa348f50f440fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 2.asset using Guid(83a4979b2a4dfcb4fa348f50f440fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604c00840cb8b269e1bbc787dbaab06c') in 0.032356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/TX Tileset Grass 8.asset
+  artifactKey: Guid(3cf72821c85683b43b7234f294f3ef5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 8.asset using Guid(3cf72821c85683b43b7234f294f3ef5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc2756bb69dc6c55d308034162badd8') in 0.006213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/TX Tileset Grass 4.asset
+  artifactKey: Guid(a3edb82035650a443bf7b5eb2bfd7e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 4.asset using Guid(a3edb82035650a443bf7b5eb2bfd7e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654fa2163207389ad7df70e9295b1535') in 0.005852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/TX Tileset Grass 6.asset
+  artifactKey: Guid(d9b91a180221d5841b4d7499133c34e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 6.asset using Guid(d9b91a180221d5841b4d7499133c34e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b839d9ff7edad0b27be8dd6a8d78044') in 0.005719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/TX Tileset Grass 10.asset
+  artifactKey: Guid(916154600f3c82d4caf7e5ec5bc3dd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 10.asset using Guid(916154600f3c82d4caf7e5ec5bc3dd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39de58e9f387100a31fc18d81278fb7a') in 0.005713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tileset/TX Tileset Grass 9.asset
+  artifactKey: Guid(b132885835623b147812ee2fe6ad34b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/TX Tileset Grass 9.asset using Guid(b132885835623b147812ee2fe6ad34b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2e529d3d117338d4084410293fdde7') in 0.005585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.815057 seconds.
+  path: Assets/Pallete/New Palette.prefab
+  artifactKey: Guid(1499e00762c9d1a41ac7d1eceeeb6a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/New Palette.prefab using Guid(1499e00762c9d1a41ac7d1eceeeb6a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45271c8c0704ea8bc5481221a300fda') in 0.034262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 3.526039 seconds.
+  path: Assets/Pallete/New Palette.prefab
+  artifactKey: Guid(1499e00762c9d1a41ac7d1eceeeb6a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/New Palette.prefab using Guid(1499e00762c9d1a41ac7d1eceeeb6a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159135e209791bde5e8b352c39b6696b') in 0.027878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 11.281327 seconds.
+  path: Assets/Pallete/New Palette.prefab
+  artifactKey: Guid(1499e00762c9d1a41ac7d1eceeeb6a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/New Palette.prefab using Guid(1499e00762c9d1a41ac7d1eceeeb6a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d18582dc086b1d0af77b65158a6b6b') in 0.031291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 298.747952 seconds.
+  path: Assets/Sprites/TX Props.png
+  artifactKey: Guid(29c9cded5e558164aaf8c9bf08aa1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TX Props.png using Guid(29c9cded5e558164aaf8c9bf08aa1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28f1f1644e95d9562850913c1007a82') in 0.139070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 1223.878606 seconds.
+  path: Assets/Sprites/TX Props.png
+  artifactKey: Guid(29c9cded5e558164aaf8c9bf08aa1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TX Props.png using Guid(29c9cded5e558164aaf8c9bf08aa1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0531b9c5c0862be07d81b843d43ce582') in 0.121407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 11.582221 seconds.
+  path: Assets/Sprites/TX Props.png
+  artifactKey: Guid(29c9cded5e558164aaf8c9bf08aa1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TX Props.png using Guid(29c9cded5e558164aaf8c9bf08aa1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71932565d647b26c530d9cb1d966400') in 0.108605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
